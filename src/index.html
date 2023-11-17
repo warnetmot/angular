@@ -6,8 +6,44 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+    <section id="carousel">
+      <h1 class="color-tex">img</h1>
+      <br>
+      <br>
+      <div id="miCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="/img/balck.jpg" class="d-block w-100" alt="Imagen 1">
+              </div>
+              <div class="carousel-item">
+                  <img src="/img/origin.jpg" class="d-block w-100" alt="Imagen 2">
+              </div>
+              <div class="carousel-item">
+                  <img src="/img/seriess.jpg" class="d-block w-100" alt="Imagen 2">
+              </div>
+              <div class="carousel-item">
+                  <img src="/img/seriesx.jpg" class="d-block w-100" alt="Imagen 2">
+              </div>  
+          </div>
+
+          <a class="carousel-control-prev" href="#miCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#miCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+          </a>
+      </div>
+  </section>
+  </app-root>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>
